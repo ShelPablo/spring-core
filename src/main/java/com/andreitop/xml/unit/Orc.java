@@ -21,16 +21,16 @@ public class Orc implements Unit {
         return weapon;
     }
 
-    public void setWeapon(String weapon) {
-        this.weapon = weapon;
+    public Orc setWeapon(String weapon) {
+        this.weapon = weapon; return this;
     }
 
     public int getColorCode() {
         return colorCode;
     }
 
-    public void setColorCode(int colorCode) {
-        this.colorCode = colorCode;
+    public Orc setColorCode(int colorCode) {
+        this.colorCode = colorCode;return this;
     }
 
     public Mount getMount() {
